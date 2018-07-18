@@ -1,34 +1,50 @@
 <html>
   <head>
-      <title>Archetecture Site</title>
+      <title>CAR SPA</title>
       <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
       <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" type="text/css">
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </head>
-  <body id="body"  >
 
-      <div class="navbar " id="navigation">
-          <img src="splash.jpg" alt="logo image">
+<script type="text/javaScript">
+$(document).ready(function){
+  var flag=0;
+  $("#center").click(function(){
+    if(flag==0)
+    $("center h1").addClass("animated hinge").removeClass("animated rollIn");
+    else
+    $("center h1").addClass("rollIn").removeClass("animated hinge");
+    flag=0;
+  });
+});
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</script>
+  </head>
+  <body id="body">
+<!--img src="lamp.jpg" alt="lamborgini"-->
+      <div class="navbar" id="navigation">
+          <!--img src="splash.jpg" alt="logo image"-->
+
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Home</a></li>
               <li><a href="about.html">About Us</a></li>
               <li><a href="contact.html">Contact</a></li>
+              <li><a href="experts.html">Services</a></li>
             </ul>
       </div>
       <div class ="row" id="center">
         <div class="col-md-offset-2 col-md-3 col-xs-12 animated zoomOutLeft">
         <h1><a href="gallery.html">Gallery</a></h1>
-        <img src="index.jpg" alt="center image">
-
-
-      </div>
+        <a href="gallery.html"><img src="index.jpg" id="gallery_border" alt="center image"></a>
+</div>
         <h1>Your CAR CARE @ OUR CAR SPA.!!</h1>
   </body>
 </html>
