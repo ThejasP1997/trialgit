@@ -1,5 +1,6 @@
 body, html {
     height: auto;
+    max-width:auto;
 }
 
 .bg {
@@ -7,8 +8,8 @@ body, html {
     background-image: url("brand.jpg");
 
     /* Full height */
-    height: auto;
-    max-width: 100%;
+height: 100%;
+    max-width: auto;
 
 
     /* Center and scale the image nicely */

@@ -74,13 +74,12 @@ background-image: url("lamb.jpg");
   color:light blue;
 }
 .carx{
-
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #body_about{
-  background-image: url("wash");
+  background-image: url("wash.jpg");
   background-position:center;
   background-repeat: no-repeat;
 }
@@ -90,16 +89,16 @@ background-image: url("lamb.jpg");
   font-family: Lobster ,sans-serif;
   font-size: 30px;
 }
-#body img{
-
+#body{
+background-image: url("auto.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: auto;
 }
 
 
 #center{
-  background-image: url("lamp1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -119,43 +118,42 @@ color:gold;
 }
 
 #navigation li a{
-  font-size:1.7rem;
-  background-color: gold;
+  font-size:2rem;
   border-radius: 15px;
   color:black;
-  border:3px solid black;
+
   margin-right:2rem;
   font-family: "Source Sans Pro", sans-serif;
-}
-#navigation ul{
-  background-color: blue;
+  padding: 8px;
 }
 
 #navigation li a:hover{
-    font-size:2rem;
-  border:3px dashed black;
-  color: inherit;
+    font-size:2.4rem;
+    font-family: monospace;
+    border:3px dashed black;
+  color: #D5D8DC ;
 }
-#navigation li a:hover{
-    font-size:2rem;
-  border:3px dashed black;
-}
+
 #center img{
   width:100%;
 }
 #contact img{
   width: 3px;
 }
-.table{
-  color: orange;
-  font-family: Lobster,sans-serif;
-  font-size: 20px;
 
-}
 .service{
-  height: auto;
-  max-width: 100%;
-  background-image: url("car3.jpg");
+  background-image: url("audi.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  max-width: auto;
+background-size: cover;
+visibility:inherit;
+backface-visibility: visible;
+}
+.contact{
+  background-image: url("car2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
 }
